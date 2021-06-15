@@ -5,8 +5,8 @@
   * 참조 코드 : https://www.w3schools.com/html , https://www.w3schools.com/css
 
 ### 참조 링크
-  * [W3 School](https://www.w3schools.com/html)
-  * [W3 School](https://www.w3schools.com/css)
+  * [W3 School HTML](https://www.w3schools.com/html)
+  * [W3 School CSS](https://www.w3schools.com/css)
 
 ### 소스 코드
 | 파일명 | code(.html) | 설명 |
