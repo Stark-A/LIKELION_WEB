@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div onmouseover="this.style.backgroundColor='orange'">
+  여기가 색깔이 변경됩니다.
+</div>
+<div onmouseleave="this.style.backgroundColor='red'">
+  여기가 색깔이 변경됩니다.
+</div>
+<div onclick="this.style.backgroundColor='gold'">
+  여기가 색깔이 변경됩니다.
+</div>
+    <script>
+    function ddd() {
+      document.getElementById("p1").style.color="red";
+    }
+    function uuu() {
+      document.getElementById("p1").style.color="green";
+    }
+    </script>
+<p id ="p1" onmousedown="ddd()" onmouseup="uuu()">
+  마우스를 누르는 동안은 빨간색으로 눌렀다가 떼면 초록색으로 글자색이 변합니다.
+</p>
+</body>
+</html>

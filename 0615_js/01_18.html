@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+  var cars = ['BMW', 'Tesla', 'Audi', 'Rolls-Royce', 'Ferrari', 'Benz']
+  var text = "";
+  var i;
+  for (i=0; i<cars.length; i++) {
+    text += cars[i] + "<br>" ;
+  }
+  document.getElementById("demo").innerHTML = text;
+
+  var fruits = ['Apple', 'Orange', 'Melon', 'Grape', 'Watermelon', 'Banana']
+  var text1 = "";
+  var x;
+  for (x=0; x<fruits.length; x++) {
+    text1 += fruits[x] + "<br>";
+  }
+  document.getElementById("demo1").innerHTML = text1;
+</script>
+
+</body>
+</html>
